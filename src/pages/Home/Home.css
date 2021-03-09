@@ -1,0 +1,41 @@
+h1 {
+  font-size: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.popular {
+  width: 100%;
+  width: 1200px;
+  margin: 2.5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+
+.artist-card {
+  cursor: pointer;
+  padding: 8px 24px 24px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 7%);
+}
+
+.artist-name {
+  font-weight: 600;
+}
+
+.artist-bio {
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: gray;
+}

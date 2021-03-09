@@ -1,0 +1,30 @@
+h1 {
+  margin-left: 2rem;
+  font-size: 1.75rem;
+  width: auto;
+}
+
+button {
+  margin-top: 0.5rem;
+}
+
+.container {
+  padding: 3rem;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.center {
+  margin-left: 80px;
+}
+
+.artist-bio {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: gray;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
